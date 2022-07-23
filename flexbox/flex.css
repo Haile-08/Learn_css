@@ -1,0 +1,36 @@
+body {
+    background-color: #2f3640;
+    color: #f5f6fa;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 100px;
+}
+
+.container {
+    height: 400px;
+    width: 400px;
+    background-color: #192a56;
+    padding: 20px 20px;
+    border-radius: 10px;
+    margin: 80px auto;
+    display: flex;
+    /*by default the flex direction is row */
+    /*flex-direction: column;
+    flex-wrap: wrap;*/
+    flex-flow: row nowrap;
+    justify-content: flex-end; /*  on the main axis */
+    align-items: flex-end; /* on the cross axis */
+    /*align-content: center;  justfy content but for coumn   */
+
+}
+.o {
+    width: 30px;
+    height: 30px;
+    background-color: #44bd32;
+    border: 2px solid #353b48;
+    padding: 20px 40px;
+    border-radius: 10px;
+}
