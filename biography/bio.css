@@ -1,0 +1,33 @@
+body{
+    background-color: white;
+}
+
+h1 {
+    color: #ff69b4;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.job-title {
+    color: #A2A2A2;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+}
+
+ul {
+    background-color: #EEEE;
+    border:solid 5px #810381;
+    font-family: 'Courier New', Courier, monospace;
+}
+a{
+    text-decoration: greenyellow;
+    color: green;
+}
+a:visited{
+    text-decoration: red;
+    color: red;
+}
